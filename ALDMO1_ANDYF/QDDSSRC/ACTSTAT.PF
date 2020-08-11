@@ -1,0 +1,3 @@
+000100150526     A          R ACTSTS                    TEXT('ACTIVE STATES')
+000200150526     A            STATECD        2A
+000400150526     A            ACTIVCD        1A

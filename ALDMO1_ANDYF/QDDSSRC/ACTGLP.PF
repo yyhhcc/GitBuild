@@ -1,0 +1,3 @@
+000100950109     A          R ACTGLP                    TEXT('Minimum PF')
+000200180118     A            FIELD1         1          TEXT('One  field')
+000300180726     A            FIELD2         1          TEXT('Two  field')

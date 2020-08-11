@@ -1,0 +1,24 @@
+000100000711     H********************************************************************
+000200170626     H**   ARS301                                                        *
+000300200709     H**   CHANGES MADE by ANDYF    C from RDi TEST DEMO
+000400200228     H**   CHANGE ON FRIDAY IN 22nd feb
+000500190911     H**
+000600001025     FMASTERL1IF  E           K        DISK
+000700000711     F            ACTGLP                            KRENAMERPGID2
+000800000711     C           *ENTRY    PLIST
+000900000711     C                     PARM           CHECK   10
+001000001023     C           CHECK     IFGT 0
+001100000711     C                     ENDIF
+001200001025     C                     READ MASTERL1                 90
+001300001024     C           *IN90     IFNE '5'
+001400000711     C                     GOTO ENDFIL
+001500000711     C                     ENDIF
+001600001025     C                     READ MASTERL1                 90
+001700170719      *CHANGE FROM 3 TO 2 FOR TASK 853
+001800150208     C           CHECK     IFLT 2
+001900000711     C                     GOTO ENDFIL
+002000000711     C                     ENDIF
+002100000711     C           ENDFIL    TAG
+002200000711      *                    SETON                     LR
+002300000711     C                     RETRN
+002400000711      *
