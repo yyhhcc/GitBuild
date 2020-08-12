@@ -2,6 +2,6 @@
 [repository]
 	devenvid = 00010024
 	instance = aldmo1
-	pdid = 00021231
-	release = Retail/GitBuild1/GitBuild1Base(1.0)::$GitBuild1
-	releaseid = 00010142
+	pdid = 00022118
+	release = Retail/OnlineOrders/Base(1.0)::$GitBuild1
+	releaseid = 00010174
