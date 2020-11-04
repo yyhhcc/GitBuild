@@ -1,6 +1,6 @@
 <?php
 internal_init();
-// Make all code      change global variables available locally
+// Make all code   change global variables available locally
 foreach($GLOBALS as $arraykey=>$arrayvalue){if($arraykey[0]!='_' && $arraykey!="GLOBALS")global $$arraykey;}
 
 //	Program Name:		custmaint.php
