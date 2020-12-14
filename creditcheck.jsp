@@ -1,4 +1,4 @@
-<%-- Tax Update    SS-95 --%>
+<%-- Tax Update  SS-95 --%>
 			
 <%@ taglib uri="http://java.sun.com/portlet" prefix="portlet" %>
 <portlet:defineObjects />
