@@ -1,4 +1,7 @@
 
 [repository]
+	devenvid = 00010662
 	instance = aldmo1
+	pdid = 00022125
 	release = Retail/OnlineOrders/Base(1.0)::$GitProjHook3
+	releaseid = 00010174
