@@ -1,28 +1,27 @@
 000100001025     H*
 000200180226     H********************************************************************
-000300181119     H********************************************************************
-000400200807     H**   REGULAR CHANGE -    FIXES FOR JULY 28 2020 MODIF TEST
-000500180501     H**
-000600200817     H** ANITAL DATE   & ANDY     Update through Git under RDiTUE11re19Monday17t
-000601200812     H* ANDY TUESDAY 12H
-000700171121     H********************************************************************
-000800180628     H********************************************************************
-000900200723     H********************************************************************
-001000001025     FMASTERL1IF  E           K        DISK
-001100001025     F            ACTGLP                            KRENAMERPGID2
-001200001025     C           *ENTRY    PLIST
-001300001025     C                     PARM           CHECK   10
-001400001025     C                     READ MASTERL1                 90
-001500001025     C                     READ MASTERL1                 90
-001600150826     C*
-001700001025     C           CHECK     IFGT 1
-001800001025     C                     GOTO ENDFIL
-001900001025     C                     ENDIF
-002000200615     C           CHECK     IFGT 2
-002100200615     C                     GOTO ENDFIL
-002200200615     C                     ENDIF
-002300180628     C*
-002400170724     C*
-002500001025     C           ENDFIL    TAG
-002600001025     C                     MOVE '1'       *INLR
-002700001025     C                     RETRN
+000300201117     H**   REGULAR CHANGE -    FIXES FOR NOV 17  2020
+000400180501     H**
+000500201119     H** STEVE 19 NOVEMBER CHANGE                                      Monday17t
+000600201117     H* BILL TUESDAY 12H
+000700201116     H* ANDY TUESDAY 12H - CHANGES FOR SDB
+000701210211     H*thursday change af22
+000800200723     H********************************************************************
+000900001025     FMASTERL1IF  E           K        DISK
+001000001025     F            ACTGLP                            KRENAMERPGID2
+001100001025     C           *ENTRY    PLIST
+001200001025     C                     PARM           CHECK   10
+001300001025     C                     READ MASTERL1                 90
+001400200903     C                     READ MASTERL1                 90
+001500150826     C*
+001600001025     C           CHECK     IFGT 1
+001700001025     C                     GOTO ENDFIL
+001800001025     C                     ENDIF
+001801201123     C           CHECK     IFGT 2
+001802201123     C                     GOTO ENDFIL
+001803201123     C                     ENDIF
+001900200922     C*
+002000170724     C*
+002100001025     C           ENDFIL    TAG
+002200001025     C                     MOVE '1'       *INLR
+002300001025     C                     RETRN
