@@ -1,27 +1,25 @@
 000100001025     H*
 000200210217     H*********************************************************************
-000300210217     H**
-000400180501     H**
-000500210217     H**
-000600210217     H*
-000700210217     H*
-000701210223     H*      CHANGE FOR WEBINAR PROJECT 4567
-000800200723     H********************************************************************
-000900001025     FMASTERL1IF  E           K        DISK
-001000001025     F            ACTGLP                            KRENAMERPGID2
-001100001025     C           *ENTRY    PLIST
-001200001025     C                     PARM           CHECK   10
-001300001025     C                     READ MASTERL1                 90
-001400200903     C                     READ MASTERL1                 90
-001500150826     C*
-001600001025     C           CHECK     IFGT 1
-001700001025     C                     GOTO ENDFIL
-001800001025     C                     ENDIF
-001801201123     C           CHECK     IFGT 2
-001802201123     C                     GOTO ENDFIL
-001803201123     C                     ENDIF
-001900200922     C*
-002000170724     C*
-002100001025     C           ENDFIL    TAG
-002200001025     C                     MOVE '1'       *INLR
-002300001025     C                     RETRN
+000300210301     H*      CHANGE FOR WEBINAR PROJECT EURONET  BY CHARLES
+000400210423     H*  LOG : DEMO 004
+000500210325     H*        DEMO 003
+000600210510     H*        DEMO FOR UOBSG 001xx
+000700200723     H********************************************************************
+000800001025     FMASTERL1IF  E           K        DISK
+000900001025     F            ACTGLP                            KRENAMERPGID2
+001000001025     C           *ENTRY    PLIST
+001100001025     C                     PARM           CHECK   10
+001200001025     C                     READ MASTERL1                 90
+001300200903     C                     READ MASTERL1                 90
+001400150826     C*
+001500001025     C           CHECK     IFGT 1
+001600001025     C                     GOTO ENDFIL
+001700001025     C                     ENDIF
+001701210510     C           CHECK     IFGT 2
+001702210510     C                     GOTO ENDFIL
+001703210510     C                     ENDIF
+001800200922     C*
+001900170724     C*
+002000001025     C           ENDFIL    TAG
+002100001025     C                     MOVE '1'       *INLR
+002200001025     C                     RETRN
