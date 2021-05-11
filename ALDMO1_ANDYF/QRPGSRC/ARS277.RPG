@@ -3,7 +3,7 @@
 000300210510     H*      CHANGE FOR WEBINAR PROJECT EURONET         4574
 000400210510     H*  LOG : DEMO 004                                 BY Anita
 000500210325     H*        DEMO 003
-000600210510     H*        DEMO FOR UOBSG 001xx
+000600210511     H*        DEMO FOR UOBSG 001xxx
 000700200723     H********************************************************************
 000800001025     FMASTERL1IF  E           K        DISK
 000900001025     F            ACTGLP                            KRENAMERPGID2
